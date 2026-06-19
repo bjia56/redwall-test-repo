@@ -1,3 +1,7 @@
 egress:
   - host: example.com
     ports: [443]
+  - host: deb.debian.org
+    ports: [80, 443]
+  - host: security.debian.org
+    ports: [80, 443]
